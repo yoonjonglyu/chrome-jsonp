@@ -4,7 +4,7 @@ const button = document.querySelector('#jsonpStart');
 
 function jsonp () {
     const script = document.createElement("script");
-    /** https 는 corb문제가 없다... */
+    /** 동일출처라서 실험 할 수 가 없다. github page로는 https <=> http라 mix contents가 된다. */
     //script.src = 'https://yoonjonglyu.github.io/webPage/assets/js/basic.js';
     script.src = "http://hangang.dkserver.wo.tc/";
     head.appendChild(script);
