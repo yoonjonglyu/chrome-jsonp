@@ -4,7 +4,9 @@ const button = document.querySelector('#jsonpStart');
 
 function jsonp () {
     const script = document.createElement("script");
-    script.src = 'https://yoonjonglyu.github.io/webPage/assets/js/basic.js';
+    /** https 는 corb문제가 없다... */
+    //script.src = 'https://yoonjonglyu.github.io/webPage/assets/js/basic.js';
+    script.src = "http://hangang.dkserver.wo.tc/";
     head.appendChild(script);
     return 0;
 };
